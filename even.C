@@ -1,7 +1,9 @@
 #include<stdio>
-void main()
+int main()
 {
-int a;
-printf("enter the value of");
-scanf("%d",&a);
+int n;
+printf("input an integer\n");
+scanf("%d",&n);
+n%2==0?printf("even\n"):printf("odd\n");
+  return 0;
 }
